@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: blockchain - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\chenm\AppData\Local\Temp\RSPA4E9.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/blockchain.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\zhuo\github\blockchain\blockchain\blockchain.cpp"
+"C:\zhuo\github\blockchain\blockchain\layer.cpp"
+"C:\zhuo\github\blockchain\blockchain\layer_device.cpp"
+"C:\zhuo\github\blockchain\blockchain\layer_mainchain.cpp"
+]
+Creating command line "cl.exe @C:\Users\chenm\AppData\Local\Temp\RSPA4E9.tmp" 
+Creating temporary file "C:\Users\chenm\AppData\Local\Temp\RSPA4EA.tmp" with contents
+[
+/nologo /subsystem:console /incremental:yes /pdb:"Debug/blockchain.pdb" /debug /machine:I386 /out:"Debug/blockchain.exe" /pdbtype:sept 
+.\Debug\blockchain.obj
+.\Debug\crypt_bignum.obj
+.\Debug\crypt_rsa.obj
+.\Debug\crypt_sha256.obj
+.\Debug\include.obj
+.\Debug\layer.obj
+.\Debug\layer_device.obj
+.\Debug\layer_mainchain.obj
+]
+Creating command line "link.exe @C:\Users\chenm\AppData\Local\Temp\RSPA4EA.tmp"
+<h3>Output Window</h3>
+Compiling...
+blockchain.cpp
+layer.cpp
+layer_device.cpp
+layer_mainchain.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/blockchain.bsc"  .\Debug\blockchain.sbr .\Debug\crypt_bignum.sbr .\Debug\crypt_rsa.sbr .\Debug\crypt_sha256.sbr .\Debug\include.sbr .\Debug\layer.sbr .\Debug\layer_device.sbr .\Debug\layer_mainchain.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+blockchain.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
